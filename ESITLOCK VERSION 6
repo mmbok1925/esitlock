@@ -28,4 +28,4 @@ ______________________________________________
 |\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/|
 fuck dont skid u cant skid it it have any obf
 _____________________\/_______________________]]
-game.Players.LocalPlayer:Kick("You have banned in 10 second.")
+game.Players.LocalPlayer:Kick("You have been banned.")
