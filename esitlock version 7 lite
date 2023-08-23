@@ -51,28 +51,6 @@ me! ur cant skid this lock
 ⣴⣿⣿⣿⣿⣿⣿⣿⣠⣿⣿⡇⠀⠀⠀⠉⠛⣽⣿⣇⣀⣀⣀⠀
 ⠙⠻⠿⠿⠿⠿⠿⠟⠿⠿⠿⠇⠀⠀⠀⠀⠀⠻⠿⠿⠛⠛⠛⠃
 --------------------------------------------------------------------------------]]
-getgenv().mmbok1925 = true
-getgenv().Key = Enum.KeyCode.Q 
-getgenv().Prediction = 0.12327
-getgenv().dot = true 
-getgenv().Partz = "HumanoidRootPart"
-getgenv().Resolver = true
-getgenv().ResolverPrediction = 0.12327
-getgenv().ResolverKey = Enum.KeyCode.X 
-getgenv().AutoPred = true
-
-local CC = game:GetService"Workspace".CurrentCamera
-local enabled = true
-local accomidationfactor = 0.12327
-local LocalMouse = game.Players.LocalPlayer:GetMouse()
-local Locking = false
-local cc = game:GetService("Workspace").CurrentCamera
-local gs = game:GetService("GuiService")
-local ggi = gs.GetGuiInset
-local lp = game:GetService("Players").LocalPlayer
-local mouse = lp:GetMouse()
-local UserInputService = game:GetService("UserInputService")
-local dot = Drawing.new("Circle")
 
 --______________________________________________--Q 
 --      █████████╗ ██████╗  ██████╗██╗          --tool
@@ -103,72 +81,6 @@ connectCharacterAdded()
 player.CharacterRemoving:Connect(function()
     tool.Parent = game.Players.LocalPlayer.Backpack
 end)
---------------------------------------------------------
-if getgenv().AutoPred == true then
-    local pingvalue = game:GetService("Stats").Network.ServerStatsItem["Data Ping"]:GetValueString()
-    local split = string.split(pingvalue,'(')
-    local ping = tonumber(split[1])
-    if ping < 300 then
-        getgenv().Prediction = 0.16537
-    elseif ping < 290 then
-        getgenv().Prediction = 0.16780
-    elseif ping < 280 then
-        getgenv().Prediction = 0.16780
-    elseif ping < 270 then
-        getgenv().Prediction = 0.195566
-    elseif ping < 260 then
-        getgenv().Prediction = 0.175566
-    elseif ping < 250 then
-        getgenv().Prediction = 0.1651
-    elseif ping < 240 then
-        getgenv().Prediction = 0.16780
-    elseif ping < 230 then
-        getgenv().Prediction = 0.15692
-    elseif ping < 220 then
-        getgenv().Prediction = 0.165566
-    elseif ping < 210 then
-        getgenv().Prediction = 0.165566
-    elseif ping < 200 then
-        getgenv().Prediction = 0.16942
-    elseif ping < 190 then
-        getgenv().Prediction = 0.166547
-    elseif ping < 180 then
-        getgenv().Prediction = 0.19284
-    elseif ping < 170 then
-        getgenv().Prediction = 0.1923111
-    elseif ping < 160 then
-        getgenv().Prediction = 0.16
-    elseif ping < 150 then
-        getgenv().Prediction = 0.15
-    elseif ping < 140 then
-        getgenv().Prediction = 0.14
-    elseif ping < 130 then
-        getgenv().Prediction = 0.156692
-    elseif ping < 120 then
-        getgenv().Prediction = 0.143765
-    elseif ping < 110 then
-        getgenv().Prediction = 0.143765
-    elseif ping < 100 then
-        getgenv().Prediction = 0.1455
-    elseif ping < 90 then
-        getgenv().Prediction = 0.135
-    elseif ping < 80 then
-        getgenv().Prediction = 0.1347
-    elseif ping < 70 then
-        getgenv().Prediction = 0.119
-    elseif ping < 60 then
-        getgenv().Prediction = 0.12731
-    elseif ping < 50 then
-        getgenv().Prediction = 0.127668
-    elseif ping < 40 then
-        getgenv().Prediction = 0.125
-    elseif ping < 30 then
-        getgenv().Prediction = 0.11
-    elseif ping < 20 then
-        getgenv().Prediction = 0.12588
-    elseif ping < 10 then
-        getgenv().Prediction = 0.9
-    end
-end
---loadstring misc
+-------------------------------------------------------
+if getgenv().keytoclick = "Q" then
 loadstring(game:HttpGet("https://raw.githubusercontent.com/mmbok1925/test/main/lite%207", true))()
