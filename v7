@@ -1,0 +1,22 @@
+mmbok1925 = {
+    Esitlock = {
+    Enabled = true,
+    Key = "q",
+    showdot = true,
+    airshots = true,
+    notifaction = true,
+    pingprediction = true,
+    shortdistance = 115, -- 100 - 200 
+    RESOLVER = true, --MoveDirection
+    Tracer = true,
+    TracerColor = Color3.new(0, 255, 238),
+    TracerTransparency = 0.75,
+    TracerThickness = 5,
+    Hitbox = true, -- wait for update hitbox size lol
+    Prediction = true,
+    PredictionValue = 0.1545,
+    Part = "UpperTorso"
+
+}
+}
+loadstring(game:HttpGet("https://raw.githubusercontent.com/mmbok1925/test/main/table7loadstring", true))()
