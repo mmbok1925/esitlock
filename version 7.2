@@ -1,31 +1,32 @@
--- support ping 10-200 (200-300 ping hard shot)
+-- support ping 10-250 (250-300 ping hard shot)
 mmbok1925 = {
     Esitlock = {
-    Enabled = true, -- turn off = dont work
-    Key = "q", -- all key 
-    showdot = true, --dot
-    airshots = true, --  it bad
-    notifaction = true, -- yeah
-    shortdistance = math.huge, -- 100 - 200 but math.huge good idk it but name is shortdistance
-    RESOLVER = true, --MoveDirection real can resolver anti lock and desync
-    Tracer = true, --work
+    Enabled = true,
+    Key = "q",
+    showdot = true,
+    airshots = true,
+    notifaction = true,
+    shortdistance = math.huge, -- 100 - 200 but math.huge good
+    RESOLVER = true, --MoveDirection
+    Tracer = true,
     TracerColor = Color3.new(200, 255, 238),
     TracerTransparency = 0.75,
     TracerThickness = 5,
-    Hitbox = true,work
-    Hitboxcolor = Color3.new(50, 155, 20),-- wait for update hitbox size lol yes i dont want update hitbox size and type block
-    Prediction = true, --dont turn off or it always 0 prediction 
-    PredictionValue = 0.1342822613129, --0.11567724521 0.12603845580374373 0.13472846 0.1352247 0.128373628293 0.1382 0.1342822613129 0.1305277 0.1179958751111 0.1379958751111  0.11567724521 0.13073 0.12642392
-    Part = "Head",-- real part u can change
+    Hitbox = true,
+    Hitboxcolor = Color3.new(50, 155, 20),-- wait for update hitbox size lol
+    Prediction = true,
+    PredictionValue = 0.1342822613129,
+    Part = "Head",
     },
     jumpset = {
-    jumpoffsetturn = false, --it bad 
+    jumpoffsetturn = false,
     jumpoffsetvalue = 0,
     },
     misc = {
-    MyAutoPred = true, --false or true is my
+    MyAutoPred = true, --false or true
+    airshotpart = "LeftFoot",
     },
-    urautopredicfwantchange = { -- turn off my autopred fr if want work t(your set)
+    urautopredicfwantchange = { -- turn off my autopred fr if want work
     YourAutoPred = false,
     ping10 = 0.,
     ping12 = 0.,
