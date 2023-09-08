@@ -10,8 +10,8 @@ mmbok1925 = {
         shortdistance = math.huge, -- 100 - 200 but math.huge good
        RESOLVER = true, --MoveDirection
       Prediction = true,
-     PredictionValue = 0.1342822613129,
-    Part = "Head",
+     PredictionValue = 0.132567724521, --0.1329321809132   --0.1322822613129 0.132567724521
+    Part = "UpperTorso",
         },
         jumpset = {
          jumpoffsetturn = false,
@@ -25,16 +25,16 @@ mmbok1925 = {
             TracerVisible = false,
             Hitbox = true,
             Hitboxcolor = Color3.new(150, 100, 120), -- this corlor so smooth
-            HitboxTypeShape = "Block", --Ball,Block,Cylinder
+            HitboxTypeShape = "Ball", --Ball,Block,Cylinder
             HitboxType = "ForceField", --neon,plastic...
-            HitboxSize = Vector3.new(8, 8, 8),
+            HitboxSize = Vector3.new(6, 6, 6),
             showdot = true,
-            dotsize = UDim2.new(4, 0, 4, 0),
-            dotRadius = UDim.new(1, 1),
+            dotsize = UDim2.new(2, 4, 2, 4),
+            dotRadius = UDim.new(0.5, 1),
         },
         misc = {
     MyAutoPred = true, --false or true
-     airshotpart = "HumanoidRootPart",
+     airshotpart = "RightFoot",
         },
         urautopredicfwantchange = { -- if u turn it, it automatic turn off MyAutoPred same with my autopred 
         YourAutoPred = false,
