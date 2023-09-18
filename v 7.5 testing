@@ -1,2 +1,2 @@
 ERORR wait for fix
-loadstring(game:HttpGet("https://raw.githubusercontent.com/mmbok1925/esitlock/main/7.5%20farmidclose", true))()
+--loadstring(game:HttpGet("https://raw.githubusercontent.com/mmbok1925/esitlock/main/7.5%20farmidclose", true))()
