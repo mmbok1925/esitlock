@@ -24,7 +24,6 @@ mmbok1925 = {
             TracerColor = Color3.new(200, 255, 238),
             TracerTransparency = 0.75,
             TracerThickness = 5,
-            TracerVisible = false,
             Hitbox = true,
             Hitboxcolor = Color3.new(150, 100, 120), -- this corlor so smooth
             HitboxTypeShape = "Ball", --Ball,Block,Cylinder
