@@ -34,7 +34,6 @@ mmbok1925 = {
         },
         misc = {
     MyAutoPred = true, --false or true
-    Statusshow = true,
      airshots = true,
       airshotpart = "LowerTorso",
         },
