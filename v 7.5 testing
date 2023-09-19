@@ -11,9 +11,9 @@ mmbok1925 = {
     },
     farmidcloseprediction = {
         farmidclose = true,
-        far = 0.11252214723,
-        mid = 0.114213515,
-        close = 0.1132521242,
+        far = 0.1149575185614,
+        mid = 0.1146979714581,--0.1163818
+        close = 0.116215,
         fardistance = math.huge,
         middistance = 30,
         closedistance = 15,
@@ -35,7 +35,7 @@ mmbok1925 = {
         misc = {
     MyAutoPred = true, --false or true
      airshots = true,
-      airshotpart = "LeftFoot",
+      airshotpart = "LowerTorso",
         },
         urautopredicfwantchange = { -- if u turn it, it automatic turn off MyAutoPred same with my autopred 
         YourAutoPred = false,
