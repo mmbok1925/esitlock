@@ -11,9 +11,9 @@ mmbok1925 = {
     },
     farmidcloseprediction = {
         farmidclose = true,
-        far = 0.11449575185614,
-        mid = 0.11346979714581,--0.1163818
-        close = 0.116215,
+        far = 0.11249575185614,
+        mid = 0.11246979714581,--0.1163818
+        close = 0.112215,
         fardistance = math.huge,
         middistance = 30,
         closedistance = 15,
