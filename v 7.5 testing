@@ -6,7 +6,7 @@ mmbok1925 = {
         shortdistance = math.huge, -- 100 - 200 but math.huge good or 1/0
        RESOLVER = true, --MoveDirection
       Prediction = true,
-     PredictionValue = 0.09, -- i use mid close far if u want use both put ur prediction value
+     PredictionValue = 0.09, -- it works and when you change prediction it will stack with autopred and closemidfarprediction so set it appropriately for example if your prediction 0.1342863325 is very blatant with your ping but because your prediction value is too poor or midclosefar prediction is too poor then yes or no
     Part = "Head",
     },
     farmidcloseprediction = {
