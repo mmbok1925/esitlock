@@ -35,7 +35,7 @@ mmbok1925 = {
         misc = {
     MyAutoPred = true, --false or true
      airshots = true,
-      airshotpart = "LowerTorso",
+      airshotpart = "Leftfoot",
         },
         urautopredicfwantchange = { -- if u turn it, it automatic turn off MyAutoPred same with my autopred 
         YourAutoPred = false,
