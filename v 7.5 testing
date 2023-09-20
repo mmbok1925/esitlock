@@ -11,7 +11,7 @@ mmbok1925 = {
     },
     farmidcloseprediction = {
         farmidclose = true,
-        far = 0.1120011120010463157575185614,
+        far = 0.1120011120010463157575185614, best set me 3 tap 40 ping locker on 230-280 ping
         mid = 0.112001111204001082315979714581,
         close = 0.1120011460024863514215,
         fardistance = math.huge,
