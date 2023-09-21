@@ -130,4 +130,4 @@ mmbok1925 = {
         ping600 = 0.
     }
 }
-loadstring(game:HttpGet("https://raw.githubusercontent.com/mmbok1925/esitlock/main/7.5%20farmidclose", true))()
+-- i update it rn loadstring(game:HttpGet("https://raw.githubusercontent.com/mmbok1925/esitlock/main/7.5%20farmidclose", true))()
