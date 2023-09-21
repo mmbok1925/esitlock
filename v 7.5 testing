@@ -11,7 +11,7 @@ mmbok1925 = {
     },
     farmidcloseprediction = {
         farmidclose = true,
-        far = 0.1120001112001046315757518561,-- wait for update this set
+        far = 0.112001112001046315757518561,-- wait for update this set
         mid = 0.1124299433209408231597971458,
         close = 0.11211102343463248635142155,-- wait for update this set
         fardistance = math.huge,
