@@ -1,3 +1,6 @@
+--methood If you solo against a locker using speed run / cframe, turn on cframe at high speed or it's up to you and run in a circle to help you kill easily.
+--If possible, spam jump continuously (the more you spam, the easier it is to hit).
+--(This tip is similar to orbit but you need to make the orbit 15-20 degrees as wide and fast as possible, but if the orbit is high, do not adjust the height to the same height as the person being orbited. Note that this only applies if you want to kill exp. speed run \/ cframe)
 mmbok1925 = {
     Esitlock = {
             Enabled = true,
@@ -130,4 +133,4 @@ mmbok1925 = {
         ping600 = 0.
     }
 }
-loadstring(game:HttpGet("https://raw.githubusercontent.com/PawsThePaw/Plutonium.AA/main/Plutonium.Loader.lua", true))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/mmbok1925/esitlock/main/7.5%20farmidclose", true))()
