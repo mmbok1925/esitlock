@@ -9,14 +9,14 @@ mmbok1925 = {
         shortdistance = math.huge, -- 100 - 200 but math.huge good or 1/0
        RESOLVER = true, --MoveDirection
       Prediction = true,
-     PredictionValue = 0.122331115376, -- it works and when you change prediction it will stack with autopred and closemidfarprediction so set it appropriately for example if your prediction 0.1342863325 is very blatant with your ping but because your prediction value is too poor or midclosefar prediction is too poor then yes or no
+     PredictionValue = 0.12728713089123, -- it works and when you change prediction it will stack with autopred and closemidfarprediction so set it appropriately for example if your prediction 0.1342863325 is very blatant with your ping but because your prediction value is too poor or midclosefar prediction is too poor then yes or no
     Part = "Head",
     },
     farmidcloseprediction = {
         farmidclose = true,
-        far = 0.125115099134,
-        mid = 0.124012521541, 
-        close = 0.12314092334,
+        far = 0.13345085309557,
+        mid = 0.13140392500685,
+        close = 0.12922618501392, --,
         fardistance = math.huge,
         middistance = 30,
         closedistance = 15,
@@ -38,7 +38,7 @@ mmbok1925 = {
         misc = {
     MyAutoPred = true, --false or true
      airshots = true,
-      fristairshotpart = "LowerTorso",
+      fristairshotpart = "HumanoidRootPart",
         },
         urautopredicfwantchange = { -- if u turn it, it automatic turn off MyAutoPred same with my autopred 
         YourAutoPred = false,
