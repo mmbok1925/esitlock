@@ -22,9 +22,9 @@
         },
         farmidcloseprediction = {
             farmidclose = true,
-            far = 0.1290599820038,
+            far = 0.1317213612395,
             mid = 0.1351256772452,
-            close = 0.128522798325 --,
+            close = 0.128522798325, --,
             fardistance = math.huge,
             middistance = 30,
             closedistance = 15,
