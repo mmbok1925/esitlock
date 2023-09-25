@@ -46,7 +46,7 @@
             misc = {
         MyAutoPred = true, --false or true
          airshots = true,
-          fristairshotpart = "HumanoidRootPart",
+          fristairshotpart = "LeftFoot",
             },
             urautopredicfwantchange = { -- if u turn it, it automatic turn off MyAutoPred same with my autopred 
             YourAutoPred = false,
