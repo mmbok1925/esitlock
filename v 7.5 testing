@@ -17,7 +17,7 @@
             farmidclose = true,
             far = i find it,
             mid = 0.1250156772454,
-            close = 0.124020798324, --,
+            close = 0.124011798324, --,
             fardistance = math.huge,
             middistance = 30,
             closedistance = 15,
