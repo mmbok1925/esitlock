@@ -1,11 +1,4 @@
 
-
-
-
-
-
-
-
 --methood If you solo against a locker using speed run / cframe, turn on cframe at high speed or it's up to you and run in a circle to help you kill easily.
 --If possible, spam jump continuously (the more you spam, the easier it is to hit).
 --(This tip is similar to orbit but you need to make the orbit 15-20 degrees as wide and fast as possible, but if the orbit is high, do not adjust the height to the same height as the person being orbited. Note that this only applies if you want to kill exp. speed run \/ cframe)
@@ -17,14 +10,14 @@
             shortdistance = math.huge, -- 100 - 200 but math.huge good or 1/0
            RESOLVER = true, --MoveDirection
           Prediction = true,
-         PredictionValue = 0.124, -- it works and when you change prediction it will stack with autopred and closemidfarprediction so set it appropriately for example if your prediction 0.1342863325 is very blatant with your ping but because your prediction value is too poor or midclosefar prediction is too poor then yes or no
+         PredictionValue = 0.1325202505111111, -- it works and when you change prediction it will stack with autopred and closemidfarprediction so set it appropriately for example if your prediction 0.1342863325 is very blatant with your ping but because your prediction value is too poor or midclosefar prediction is too poor then yes or no
         Part = "Head",
         },
         farmidcloseprediction = {
             farmidclose = true,
-            far = 0.1220943209844,
-            mid = 0.123043249843,
-            close = 0.12104394304, --,
+            far = 0.1262711361242,
+            mid = 0.1250256772454,
+            close = 0.124021798324, --,
             fardistance = math.huge,
             middistance = 30,
             closedistance = 15,
@@ -46,7 +39,7 @@
             misc = {
         MyAutoPred = true, --false or true
          airshots = true,
-          fristairshotpart = "RightFoot",
+          fristairshotpart = "HumanoidRootPart",
             },
             urautopredicfwantchange = { -- if u turn it, it automatic turn off MyAutoPred same with my autopred 
             YourAutoPred = false,
