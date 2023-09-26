@@ -1,8 +1,4 @@
-
---methood If you solo against a locker using speed run / cframe, turn on cframe at high speed or it's up to you and run in a circle to help you kill easily.
---If possible, spam jump continuously (the more you spam, the easier it is to hit).
---(This tip is similar to orbit but you need to make the orbit 15-20 degrees as wide and fast as possible, but if the orbit is high, do not adjust the height to the same height as the person being orbited. Note that this only applies if you want to kill exp. speed run \/ cframe)
-    mmbok1925 = {
+mmbok1925 = {
         Esitlock = {
                 Enabled = true,
                Key = "q",
@@ -15,9 +11,9 @@
         },
         farmidcloseprediction = {
             farmidclose = true,
-            far = 0.1111111111111,
-            mid = 0.1250156772454,
-            close = 0.124011798324, --,
+            far = 0.1270523440677,
+            mid = 0.1250256773454,
+            close = 0.1230456798234, --,
             fardistance = math.huge,
             middistance = 30,
             closedistance = 15,
