@@ -1,4 +1,4 @@
-mmbok1925 = {
+    mmbok1925 = {
         Esitlock = {
                 Enabled = true,
                Key = "q",
@@ -11,9 +11,9 @@ mmbok1925 = {
         },
         farmidcloseprediction = {
             farmidclose = true,
-            far = 0.1270523440677,
+            far = 0.1300152456677,
             mid = 0.1250256773454,
-            close = 0.1230456798234, --,
+            close = 0.1200503203295, --,
             fardistance = math.huge,
             middistance = 30,
             closedistance = 15,
@@ -35,7 +35,7 @@ mmbok1925 = {
             misc = {
         MyAutoPred = true, --false or true
          airshots = true,
-          fristairshotpart = "HumanoidRootPart",
+          fristairshotpart = "LowerTorso",
             },
             urautopredicfwantchange = { -- if u turn it, it automatic turn off MyAutoPred same with my autopred 
             YourAutoPred = false,
