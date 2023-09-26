@@ -6,7 +6,7 @@
             shortdistance = math.huge, -- 100 - 200 but math.huge good or this as > 1/0 (1/0 trash)
            RESOLVER = true, --work
           Prediction = true,
-         PredictionValue = 0.1325202505111111, -- if want blatant exp
+         PredictionValue = 0.1325202505111111, 
         Part = "Head",
         },
         farmidcloseprediction = {
