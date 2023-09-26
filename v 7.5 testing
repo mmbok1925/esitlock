@@ -6,12 +6,12 @@
             shortdistance = math.huge, -- 100 - 200 but math.huge good or this as > 1/0 (1/0 trash)
            RESOLVER = true, --work
           Prediction = true,
-         PredictionValue = 0.1325202505111111, 
+         PredictionValue = 0.13252025050, 
         Part = "Head",
         },
         farmidcloseprediction = {
             farmidclose = true,
-            far = 0.1309568122765,
+            far = 0.1309668122765,
             mid = 0.1250256773454,
             close = 0.1207212612398, --,
             fardistance = math.huge,
