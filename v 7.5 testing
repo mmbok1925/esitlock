@@ -3,10 +3,10 @@
                 Enabled = true,
                Key = "q",
              notifaction = true,
-            shortdistance = math.huge, -- 100 - 200 but math.huge good or 1/0
+            shortdistance = math.huge, -- 100 - 200 but math.huge good or this as > 1/0 (1/0 trash)
            RESOLVER = true, --MoveDirection
           Prediction = true,
-         PredictionValue = 0.1325202505111111, -- it works and when you change prediction it will stack with autopred and closemidfarprediction so set it appropriately for example if your prediction 0.1342863325 is very blatant with your ping but because your prediction value is too poor or midclosefar prediction is too poor then yes or no
+         PredictionValue = 0.1325202505111111, -- if want blatant exp
         Part = "Head",
         },
         farmidcloseprediction = {
@@ -27,9 +27,9 @@
                 Hitboxcolor = Color3.new(150, 100, 120), -- this corlor so smooth
                 HitboxTypeShape = "Ball", --Ball,Block,Cylinder
                 HitboxType = "ForceField", --neon,plastic...
-                HitboxSize = Vector3.new(4, 4, 4), -- If you want the hitbox to cover the entire target, set it to 6,6,6 or 7,7,7
+                HitboxSize = Vector3.new(2, 2, 2), 
                 showdot = true,
-                dotsize = UDim2.new(2, 4, 2, 4),
+                dotsize = UDim2.new(2, 2, 2, 2),
                 dotRadius = UDim.new(0.5, 1),
             },
             misc = {
@@ -37,7 +37,7 @@
          airshots = true,
           fristairshotpart = "LowerTorso",
             },
-            urautopredicfwantchange = { -- if u turn it, it automatic turn off MyAutoPred same with my autopred 
+            urautopredicfwantchange = { -- turn on = turn off my autopred
             YourAutoPred = false,
             ping10 = 0.,
             ping15 = 0.,
