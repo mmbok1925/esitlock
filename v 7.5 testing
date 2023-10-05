@@ -9,7 +9,7 @@ getgenv().mmbok1925 = {
     },
   FARMIDCLOSE = {
     Enabled = true,
-  Far = 0, -- (my bad i dont have a good far set)
+  Far = 0.1350356773454, -- (my bad i dont have a good far set)
     Mid = 0.1350256773454, 
         Close = 0.132567724521 ,
             FarDis = math.huge,
