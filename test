@@ -1,3 +1,4 @@
+--during testing
 getgenv().mmbok1925 = {
     Esitlock = {
            Enabled = true,
