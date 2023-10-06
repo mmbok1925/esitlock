@@ -1,3 +1,4 @@
+
 --during testing
 getgenv().mmbok1925 = {
     Esitlock = {
@@ -10,10 +11,9 @@ getgenv().mmbok1925 = {
     },
   FARMIDCLOSE = {
     Enabled = true,
-  Far = 0.1350356773454, -- (my bad i dont have a good far set)
-    Mid = 0.1350256773454, 
-        Close = 0.132567724521 ,
-            FarDis = math.huge,
+  Far = 0.1538185 , -- (my bad i dont have a good far set) far dis not far is mid/far
+    Mid = 0.1550256773454, 
+        Close = 0.152567724521 ,
             MidDis  = 25,
         CloseDis = 10
   }, 
