@@ -6,21 +6,22 @@ getgenv().mmbok1925 = {
           Key = "q",
          notifaction = true,   --work
         Prediction = true,
-       PredictionValue = 0.1350256773454,
+       PredictionValue = 0.12,
       Part = "Head"
     },
   FARMIDCLOSE = {
     Enabled = true,
-  Far = 0.1538185 , -- (my bad i dont have a good far set) far dis not far is mid/far
-    Mid = 0.1550256773454, 
-        Close = 0.152567724521 ,
-            MidDis  = 25,
-        CloseDis = 10
+  Far = 0.1245, -- 10-150 ping only
+    Mid = 0.125, 
+        Close = 0.1255,
+            MidDis  = 25,--<
+        CloseDis = 10, --<
+     FarDis = 25 -- (above middis) >=
   }, 
 Airshot = {
  Enabled = true,
 jumpairpart = "LeftFoot",
-    secondairpart = "LowerTorso"
+    secondairpart = "HumanoidRootPart"
 },
         RESOLVER = {
         Enabled = true,
