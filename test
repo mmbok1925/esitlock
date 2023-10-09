@@ -11,9 +11,9 @@ getgenv().mmbok1925 = {
     },
   FARMIDCLOSE = {
     Enabled = true,
-  Far = 0.1025476389, 
+  Far = 0.121833823, -- from monkey vio server
     Mid = 0.125, 
-        Close = 0.11457819,
+        Close = 0.11457819, -- i forgot 
             MidDis  = 30,--<
         CloseDis = 10, --<
      FarDis = 30 -- (above middis) >=
