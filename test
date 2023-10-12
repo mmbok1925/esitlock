@@ -14,7 +14,7 @@ jumpairpart = "LeftFoot",
 },
         RESOLVER = {
         Enabled = true,
-        Type = "Delta"     --Delta  or MoveDirection
+        Type = "Delta"     --Delta  or MoveDirection i add pivot rn 
         },
         FARMIDCLOSE = { -- it do prediction better
             Enabled = true,
