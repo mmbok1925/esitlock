@@ -1,0 +1,62 @@
+--during testing
+getgenv().mmbok = {
+    Esitlock = {
+           Enabled = true,
+          Key = "q",
+         notifaction = true,   
+        Prediction = true, -- dont turn off lil 
+       PredictionValue = 0.1228,
+      Part = "Head"
+    },
+    FARMIDCLOSE = { -- it do prediction better
+        Enabled = true,
+      },
+      farpre = { --my far set ass change it 
+        dis = 100,
+    far = 0.12,
+    far10_60 = 0.11457819,
+    far70_130 = 0.13230,
+    far140_200 = 0.1655,
+    far210_270 = 0.1862279,
+    far280_340 = 0.1923441,
+    far350_400 = 0.21482
+    },
+     midpre = {
+         dis = 42,
+    mid = 0.1550256773454
+ },
+     closepre = {
+         dis = 16,
+    close = 0.136,
+    close10_60 = 0.116215,
+    close70_130 = 0.1259910,
+    close140_200 = 0.1361223476,
+    close210_270 = 0.14377,
+    close280_340 = 0.151,
+    close350_400 = 0.1843
+  }, 
+Airshot = {
+ Enabled = true,
+jumpairpart = "LeftFoot",
+    secondairpart = "HumanoidRootPart"
+},
+        RESOLVER = {    -- 1st                  
+        Enabled = true, --  
+        Type = "DeltaTimeMoveDirection" -- MoveDirection or DeltaTime or DeltaTimeMoveDirection
+        },
+        esptarget = {
+            Tracer = true,
+            TracerColor = Color3.new(200, 255, 238),
+            TracerTransparency = 0.75,
+            TracerThickness = 5,
+            Hitbox = true, -- only check velocity 
+            Hitboxcolor = Color3.new(150, 100, 120), -- this corlor so smooth
+            HitboxTypeShape = "Ball", --Ball,Block,Cylinder 
+            HitboxType = "ForceField", --neon,plastic...
+            HitboxSize = Vector3.new(2, 2, 2), 
+            showdot = true, --only check velocity
+            dotsize = UDim2.new(2, 2, 2, 2),
+            dotRadius = UDim.new(0.5, 1)
+    }
+  }
+loadstring(game:HttpGet("https://raw.githubusercontent.com/mmbok1925/esitlock/main/Esitlock.obf", true))()
